@@ -1,0 +1,193 @@
+body{
+    border-style: double;
+    margin: 0px;
+}
+#firstline{
+padding: 10px;
+    height: 40px;
+    width: 100%;
+text-align: center;
+font-weight: 300px;
+text-decoration: underline;
+margin-bottom: 10px;
+background-image:linear-gradient( 
+        to right,
+        red,
+        green,
+        yellow );
+}
+.tabel{
+    justify-content: center;
+    display: flex;
+    border: groove red 5px;
+    border-radius: 20px;
+    height: 60px;
+    width: 500px;
+    margin: auto;
+    background-color: rgb(81, 217, 235);
+    padding-bottom: 5vh;
+}
+.container{
+    border: solid 2px purple;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.container2{
+    
+    display: inline-flex;
+    justify-content: space-around;
+
+}
+.box{
+    border: solid 3px tomato;
+    border-radius: 10px;
+    background-color:rgb(87, 212, 87);
+    margin-bottom: 4px;
+    margin:3px;
+
+}
+.box2{
+    height: 60px;
+    width: 400px;
+   margin: auto;
+    border: solid 2px tomato;
+    border-radius: 10px;
+    background-color: rgb(87, 212, 87);
+    margin-bottom: 4px;
+
+}
+#heading{
+    padding: 10px;
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    font-weight: 300px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    background-image:linear-gradient( 
+            to right,
+            red,
+            yellow,
+            blue );
+}
+.container3{
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    width: 100%;
+    margin: 10px;
+    background-image: radial-gradient(
+        blue,
+        aqua,
+        green
+    );
+}
+.box3{
+    background-color: yellow;
+    text-shadow: 1px 1px red;
+    border: 2px solid red;
+    border-radius: 15px;
+    height: 80px;
+    width: 140px;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 50px;
+}
+.grid-container{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+
+}
+.grid1{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    grid-row-start:1 ;
+    grid-row-end:1 ;
+    grid-column-start:1 ;
+    grid-column-end:5;
+}
+
+.grid2{
+    background-color: rgb(30, 235, 30);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    grid-row-start:2 ;
+    grid-row-end:2 ;
+    grid-column-start:1 ;
+    grid-column-end:2;
+    height: 100px;
+    width: auto;
+    margin: 10px;
+    margin-top: 20px;
+}
+.grid3{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    grid-row-start:2 ;
+    grid-row-end:2 ;
+    grid-column-start:2 ;
+    grid-column-end:3;
+    height: 100px;
+    width: auto;
+    margin: 10px;
+    margin-top: 20px;
+}
+.grid4{
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    grid-row-start:2 ;
+    grid-row-end:2 ;
+    grid-column-start:3 ;
+    grid-column-end:4;
+    height: 100px;
+    width: auto;
+    margin-top: 20px;
+}
+
+.grid5{
+    background-color: black;
+    color: white;
+    font-size: large;
+    text-align: center;
+    text-decoration: underline;
+    grid-row-start:2 ;
+    grid-row-end:4 ;
+    grid-column-start:4 ;
+    grid-column-end:4 ;
+    height: 200px;
+    width: 160px;
+}
+
+.grid6{
+    background-color:orange;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    grid-row-start:3 ;
+    grid-row-end:3 ;
+    grid-column-start:1 ;
+    grid-column-end:4;
+    height: 100;
+    width: auto;
+    padding: 10px;
+}
+.grid7{
+    background-color:rgb(21, 209, 193);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    grid-row-start:4 ;
+    grid-row-end:4 ;
+    grid-column-start:1 ;
+    grid-column-end:5;
+   
+}
